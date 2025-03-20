@@ -393,13 +393,13 @@
 }
 .comments h5{
     position: absolute;
-    top: 6600px;
+    margin-top: -140px;
     color: white;
     font-weight: bold;
 }
 .comments p{
     position: absolute;
-    top: 6650px;
+    margin-top: -120px;
     color: white;
     font-weight: bold;
 }
