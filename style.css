@@ -1,0 +1,450 @@
+@media screen and (min-width: 480px) {
+    body {
+      background-color: white;
+    }
+.intro{
+    text-align: center;
+    border: solid 1px black;
+    background-color: rgb(68, 58, 58);
+    color: white;
+    font-size: small;
+    
+}
+.intro a{
+    color: white;
+    font-weight: bold;
+    
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 30px;
+}
+.email{
+    display: flex;
+}
+#email_icon{
+    padding-left: 30px; padding-top: 20px;
+    color: blue;
+    
+}
+.phone{
+    display: flex;
+}
+#phone_icon{
+    padding-right: 30px; padding-top: 30px;
+    color: blue;
+}
+#href{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.contact p{
+    color: gray;
+}
+.header_navigation{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header_navigation a{
+    text-decoration: none;
+    color: grey;
+    padding-left: 70px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#home a{
+    color: orange;
+}
+#moving_day-box{
+    width: 100%;
+    height: 700px;
+    background-color: aqua;
+}
+.mantra_text{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 0px;
+    text-align: center;
+}
+#smooth_moving{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+    
+}
+#makeit_easy{
+    color: white;
+    font-size: 400%;
+    font-weight: bolder;
+    
+}
+#get_started_button{
+    padding: 20px;
+    color: white;
+    background-color: orange;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    padding-left: 30px; padding-left: 30px;
+}
+.first_container{
+    margin-bottom: 50px;
+}
+#moving_house{
+    height: 500px; width: 500px;
+}
+#moving_boxes{
+    height: 400px; width: 400px;
+    margin-bottom: 50px;
+    border: solid 8px blue;
+}
+.history{
+    margin-left: 200px;
+    display: flex;
+}
+.history{
+    display: flex;
+}
+.aboutus-image{
+    padding-left: 100px;
+}
+.lorem-ipsium-text{
+    padding-left: 50px;
+}
+.launch a{
+    color: orange;
+    font-weight: bold;
+}
+.launch p{
+    font-weight: bolder;
+    font-size: 200%;
+}
+.learn-about-us a{
+    color: orange;
+    font-weight: bold;
+}
+.learn-about-us p{
+    font-weight: bolder;
+    font-size: 200%;
+}
+.logos{
+    margin-left: 100px;
+    padding-left: 100px;
+    word-spacing: 120px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.services{
+    text-align: center;
+}
+.services a{
+    color: orange;
+    font-weight: bold;
+    font-size: small;
+}
+.services h2{
+    font-size: 300%;
+}
+
+.what-we-do img{
+    height: 100px; width: 100px;
+    margin-bottom: 50px;
+}
+.what-we-do p{
+    color: grey;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.what-we-do a{
+    text-decoration: none;
+    color: orange;
+    margin-top: 50px;
+}
+.what-we-do{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 80px;
+}
+.what-we-do h4{
+    margin-bottom: 50px;
+}
+.storage{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.storage p{
+    color: white;
+}
+.moving-video img{
+    height: 200px;width: 300px;
+}
+.how-we-help{
+    display: flex;
+    margin-left: 150px;
+    gap: 100px;
+    margin-bottom: 200px;
+}
+.how-we-help h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.moving-video{
+    display: flex;
+    gap: 50px;
+}
+#icon_play{
+     right: 700px; top: 2800px;
+    position: absolute;
+    color: orange;
+}
+.text-on-border img{
+    height: 700px;width: 500px;
+    border-right: 50px solid blue;
+    border-bottom: 150px solid blue;
+}
+.why-us{
+    display: flex;
+    margin-left: 150px;
+    gap: 150px;
+}
+.our-stats a{
+    color: orange;
+    font-weight: bold;
+    font-size: small;
+}
+.our-stats h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.our-stats p{
+    color: gray;
+}
+.our-numbers i{
+    color: orange;
+}
+.our-numbers p{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.our-numbers{
+    margin-top: 100px;
+}
+.text-on-border h5{
+    position: absolute;
+    top: 3800px; 
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.text-whitebg{
+    position: absolute;
+   top: 3200px;
+    text-align: center;
+    background-color: white;
+    margin-left: 40px;
+}
+.text-whitebg a{
+    color: orange;
+    font-weight: bold;
+}
+#book-now{
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    margin-top: 30px;margin-bottom: 100PX;
+
+}
+#book-now a{
+    color: orange;
+}
+.see-our-work img{
+    height: 500px;width: 100%;
+}
+#icon_video{
+    color: #ffa500;
+    position: absolute;
+    top: 4300px; 
+    right: 900px;
+}
+.quotation{
+    display: flex;
+    
+    
+    margin-bottom: 150px;
+    
+}
+.type_date{
+    display: flex;
+}
+.place_size{
+    display: flex;
+}
+.new_btn{
+    display: flex;
+}
+.form input{
+    padding: 20px;
+}
+.new_btn button{
+    background-color: orange;
+    padding-right: 20px; padding-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+.get-quote{
+    background-color: orange;
+    padding-left: 300px; padding-right: 200px;
+
+}
+.form{
+    background-color: blue;
+    padding-left: 300px; padding-right: 400px;
+    padding-bottom: 100px;
+}
+.testimonial{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.christine-review img{
+    height: 80px; width: 80px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.christine-review h4{
+    color: orange;
+    margin-top: 40px;
+}
+.christine-review p{
+    color: gray;
+}
+.christine-review i{
+    color: blue;
+}
+.christine-review{
+    text-align: center;
+}
+.customer-review{
+    display: flex;
+    margin-left: 150px;
+    gap: 150px;
+    margin-bottom: 200px;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+.subscribe p{
+    color: grey;
+    font-weight: bold;
+}
+.subscribe button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding-left: 40px;padding-right: 40px; 
+    padding: 20px;
+    font-weight: bold;
+}
+.entertainment img{
+    height: 200px; width: 400px;
+}
+.comments{
+    display: flex;
+    margin-left: 150px;
+    gap: 150px;
+}
+.comments h5{
+    position: absolute;
+    top: 6600px;
+    color: white;
+    font-weight: bold;
+}
+.comments p{
+    position: absolute;
+    top: 6650px;
+    color: white;
+    font-weight: bold;
+}
+.services{
+    margin-bottom: 200px;
+}
+.discover{
+    display: flex;
+    padding-bottom: 70px;padding-top: 70px;
+    gap: 800px;
+    background-color: orange;width: 100%;
+}
+.discover button{
+    background-color: black;
+    color: wheat;
+    font-weight: bold;
+    padding-left: 30px; padding-right: 30px;
+    padding: 25px;
+    border: none;
+}
+.discover p{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+.reach-us{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(34, 12, 12);
+    padding-bottom: 150px;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.social-media{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
+.reach-us a{
+    text-decoration: none;
+}
+.reach-us ul{
+    list-style-type: none;
+}
+#title a{
+    color: white;
+    font-weight: bolder;
+}
+.reach-us li{
+    color: gray;
+}
+.reach-us li a{
+    color: gray;
+}
+#x{
+    color: orange;
+}
+#media{
+    color: white;
+}
+.Copyright{
+    text-align: center;
+    background-color: rgb(34, 12, 12);
+    padding-top: 50px; padding-bottom: 50px;
+    color: gray;
+}
