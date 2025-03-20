@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
     body {
-      background-color: white;
+      background-color: lightgreen;
     }
 .intro{
     text-align: center;
@@ -61,6 +61,9 @@
 #home a{
     color: orange;
 }
+.moving-day{
+    margin-bottom: 50px;
+}
 #moving_day-box{
     width: 100%;
     height: 700px;
@@ -95,8 +98,12 @@
     cursor: pointer;
     padding-left: 30px; padding-left: 30px;
 }
-.first_container{
-    margin-bottom: 50px;
+.square{
+    border: blue 8px solid;
+    height: 10cm; width: 10cm;
+    position: absolute;
+    margin-top: -400px; margin-left: -40px;
+}
 }
 #moving_house{
     height: 500px; width: 500px;
@@ -104,10 +111,10 @@
 #moving_boxes{
     height: 400px; width: 400px;
     margin-bottom: 50px;
-    border: solid 8px blue;
+    
 }
 .history{
-    margin-left: 200px;
+    margin-left: 150px;
     display: flex;
 }
 .history{
@@ -282,19 +289,29 @@
 }
 .quotation{
     display: flex;
-    
-    
     margin-bottom: 150px;
+}
+.quotation h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.quotation a{
+    color: white;
+    font-weight: bolder;
     
 }
 .type_date{
     display: flex;
+    gap: 45px;
 }
 .place_size{
     display: flex;
+    gap: 30px;
 }
 .new_btn{
     display: flex;
+    gap: 30px;
 }
 .form input{
     padding: 20px;
@@ -308,13 +325,16 @@
 .get-quote{
     background-color: orange;
     padding-left: 300px; padding-right: 200px;
+    padding-top: 50px;
 
 }
 .form{
     background-color: blue;
     padding-left: 300px; padding-right: 400px;
     padding-bottom: 100px;
+    padding-top: 50px;
 }
+
 .testimonial{
     text-align: center;
     margin-bottom: 90px;
