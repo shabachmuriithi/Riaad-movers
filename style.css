@@ -102,7 +102,7 @@
     border: blue 8px solid;
     height: 10cm; width: 10cm;
     position: absolute;
-    margin-top: -400px; margin-left: -40px;
+    margin-top: -420px; margin-left: 100px;
 }
 }
 #moving_house{
@@ -111,6 +111,7 @@
 #moving_boxes{
     height: 400px; width: 400px;
     margin-bottom: 50px;
+    padding-left: 120px;
     
 }
 .history{
@@ -124,7 +125,7 @@
     padding-left: 100px;
 }
 .lorem-ipsium-text{
-    padding-left: 50px;
+    padding-left: 30px;
 }
 .launch a{
     color: orange;
@@ -133,7 +134,9 @@
 .launch p{
     font-weight: bolder;
     font-size: 200%;
-}
+ }
+ 
+
 .learn-about-us a{
     color: orange;
     font-weight: bold;
@@ -293,8 +296,12 @@
 }
 .quotation h2{
     color: white;
-    font-weight: bolder;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#send_btn{
+    padding: 20px;
+    height: 10px;
 }
 .quotation a{
     color: white;
@@ -303,11 +310,15 @@
 }
 .type_date{
     display: flex;
-    gap: 45px;
+    gap: 100px;
+}
+.type_date input{
+    width: 100%;
 }
 .place_size{
     display: flex;
-    gap: 30px;
+    gap: 70px;
+    padding-bottom: 20px;
 }
 .new_btn{
     display: flex;
