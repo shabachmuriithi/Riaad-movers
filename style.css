@@ -319,10 +319,11 @@
     display: flex;
     gap: 70px;
     padding-bottom: 20px;
+    margin-left: -40px;
 }
 .new_btn{
     display: flex;
-    gap: 30px;
+    gap: 70px;
 }
 .form input{
     padding: 20px;
@@ -332,6 +333,8 @@
     padding-right: 20px; padding-left: 20px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+    padding: 20px;
 }
 .get-quote{
     background-color: orange;
@@ -393,6 +396,7 @@
     padding-left: 40px;padding-right: 40px; 
     padding: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 .entertainment img{
     height: 200px; width: 400px;
@@ -430,6 +434,7 @@
     padding-left: 30px; padding-right: 30px;
     padding: 25px;
     border: none;
+    cursor: pointer;
 }
 .discover p{
     color: white;
